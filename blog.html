@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laundry Blog</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f9fa;
+      padding-top: 40px;
+    }
+    .hero {
+      display: flex;
+      background: url('https://images.unsplash.com/photo-1505839673365-e3971f8d9184?fit=crop&w=1470&q=80') center/cover no-repeat;
+      height: 400px;
+      align-items: center;
+      color: white;
+      position: relative;
+    }
+    .hero .overlay {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 2rem;
+      max-width: 500px;
+      margin-left: 50px;
+    }
+    .card img {
+      height: 200px;
+      object-fit: cover;
+    }
+    .read-more {
+      display: inline-block;
+      margin-top: 10px;
+      color: #007bff;
+      text-decoration: none;
+    }
+    .read-more:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Levany Fresh Laundry</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="About.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link active" href="blog.html">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="faqs.html">FAQs</a></li>
+        <li class="nav-item"><a class="nav-link" href="contactus.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="overlay">
+      <small>July 20, 2025 • News • 2 Comments</small>
+      <h2 class="mt-2">At sunrise, freshness begins</h2>
+      <p>Your laundry journey starts with a breath of freshness. Discover the difference.</p>
+    </div>
+  </section>
+
+  <!-- Blog Cards -->
+  <div class="container mt-5">
+    <h3 class="mb-4">Latest Stories</h3>
+    <div class="row g-4">
+      <!-- Blog Post Card -->
+      <div class="col-md-4">
+        <div class="card">
+          <a href="blog-post1.html"><img src="images/behindfolding.jpg" class="card-img-top" alt="Laundry Story"></a>
+          <div class="card-body">
+            <h5 class="card-title">Behind Every Fold</h5>
+            <p class="card-text">Discover the stories of hands behind your neatly folded laundry.</p>
+            <a href="blog-post1.html" class="read-more">Read More →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <a href="blog-post2.html"><img src="images/sustainable.jpg" class="card-img-top" alt="Eco Friendly"></a>
+          <div class="card-body">
+            <h5 class="card-title">Sustainability in Every Wash</h5>
+            <p class="card-text">How we ensure eco-conscious practices in our laundry process.</p>
+            <a href="blog-post2.html" class="read-more">Read More →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <a href="blog-post3.html"><img src="images/delivery1.png" class="card-img-top" alt="Pickup Service"></a>
+          <div class="card-body">
+            <h5 class="card-title">Pickup to Doorstep</h5>
+            <p class="card-text">Convenient, affordable, and on-time pickup and drop-off services.</p>
+            <a href="blog-post3.html" class="read-more">Read More →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- More Cards if Needed -->
+    </div>
+
+    <div class="text-center mt-4">
+      <a href="#" class="btn btn-outline-primary">More Posts</a>
+    </div>
+  </div>
+
+  <!-- WhatsApp Floating Button -->
+<a href="https://wa.me/256764763935" class="whatsapp-float" target="_blank">
+  <img src="images/WhatsApp.png" alt="WhatsApp Chat">
+</a>
+
+<!-- Footer -->
+<footer class="footer-dark text-white pt-5 pb-3">
+  <div class="container">
+    <div class="row">
+
+      <!-- About Section -->
+      <div class="col-md-3">
+        <h5 class="text-orange">Kampala Fresh Laundry</h5>
+        <p>We bring freshness to your doorstep. Quality laundry services in Kampala.</p>
+        <p class="mt-3">
+          <i class="bi bi-telephone"></i> +256 764 763 935<br>
+          <i class="bi bi-envelope"></i> info@kampalafresh.com
+        </p>
+      </div>
+
+      <!-- Information -->
+      <div class="col-md-2">
+        <h6 class="text-orange">Information</h6>
+        <ul class="list-unstyled">
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="faqs.html">FAQs</a></li>
+        </ul>
+      </div>
+
+      <!-- Helpful Links -->
+      <div class="col-md-2">
+        <h6 class="text-orange">Helpful Links</h6>
+        <ul class="list-unstyled">
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <!-- Subscribe -->
+      <div class="col-md-4">
+        <h6 class="text-orange">Subscribe for Offers</h6>
+        <form>
+          <div class="input-group mb-3">
+            <input type="email" class="form-control" placeholder="Enter your Email">
+            <button class="btn btn-orange" type="submit">Subscribe</button>
+          </div>
+        </form>
+        <div class="social-icons">
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-twitter"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-whatsapp"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="text-center mt-4 border-top pt-3">
+      <small>© 2025 Levany Fresh Laundry. All rights reserved.</small>
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

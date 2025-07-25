@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Levany Fresh Laundry - Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="./images/favicon.ico.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+        body { font-family: 'Segoe UI', sans-serif; }
+        .hero-section, .info-section, .team-section, .location-section {
+            padding: 60px 0;
+        }
+        .bg-dark-blue {
+            background-color: #001845;
+            color: white;
+        }
+        .yellow-text {
+            color: #f5d300;
+        }
+        .btn-yellow {
+            background-color: #f5d300;
+            border: none;
+            color: black;
+        }
+        .team-card {
+            border: none;
+            background-color: #fef8e5;
+            text-align: center;
+        }
+        .highlight-card {
+            background-color: #001845;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .map-section iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+        }
+        .contact-form input, .contact-form textarea {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Levany Fresh Laundry</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="About.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="faqs.html">FAQs</a></li>
+        <li class="nav-item"><a class="nav-link" href="contactus.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/slide1.jpg" class="d-block w-100" alt="Slide 1">
+    </div>
+    <div class="carousel-item">
+      <img src="images/slide2.jpg" class="d-block w-100" alt="Slide 2">
+    </div>
+    <div class="carousel-item">
+      <img src="images/slide3.jpg" class="d-block w-100" alt="Slide 3">
+    </div>
+  </div>
+</div>
+
+<!-- Welcome Note Overlay -->
+<div class="hero-text-overlay text-center text-white">
+  <h1 class="display-4 fw-bold">Experience freshness, convenience<br>and spotless satisfaction.</h1>
+  <p class="lead">Welcome to Levany Fresh Laundry</p>
+
+  <a href="contactus.html" class="btn btn-warning btn-lg mt-3 px-4">Contact Us</a>
+</div>
+
+
+    
+    <!-- Text Content -->
+    <!-- Hero Section -->
+    <div class="container hero-section">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="images/home.jpg" alt="Jos" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <h1><strong>About Levany</strong></h1>
+                <p>
+        Levany Fresh Laundry was born out of a simple idea to bring freshness, reliability, and trust into every home in our beloved city. From humble beginnings, we’ve grown into one of Kampala’s most trusted laundry services, proudly serving families, students, professionals, and businesses.
+      </p>
+                <a href="About.html" class="btn btn-warning btn-lg mt-3 px-4">Read More</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- What We Do Section -->
+    <div class="bg-dark-blue info-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2>About <span class="yellow-text">Our Services</span></h2>
+                    <p>We provide a wide range of professional laundry services designed to meet the daily needs of individuals, families, and businesses. From regular washing and drying to expert ironing, folding, and dry cleaning, each garment is treated with care using high-quality detergents and modern machines to ensure freshness, cleanliness, and quality results.</p>
+                    <p>In addition to personal laundry, customers enjoy convenient pick-up and delivery options that save time and effort. Businesses such as hotels, salons, gyms, and offices can also benefit from tailored bulk and corporate laundry solutions. .</p>
+                    <a href="services.html" class="btn btn-warning btn-lg mt-3 px-4">Read more</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/1.jpg" alt="What We Do" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Why Section -->
+    <div class="bg-dark-blue info-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="images/2.jpg" alt="Why Land Group" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <h2>Why <span class="yellow-text">Choose Us</span></h2>
+                    <p>At Levany Laundry, we don’t just clean clothes — we deliver care, convenience, and confidence with every service. Here’s why customers across Uganda trust us:</p>
+                    <ul>
+                     <li><i class=""></i> Reliable & timely services</li>
+                     <li><i class=""></i> Professional quality cleaning</li>
+                     <li><i class=""></i> Affordable pricing</li>
+                    </ul>
+                    <a href="contactus.html" class="btn btn-warning btn-lg mt-3 px-4">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials -->
+<section class="container my-5">
+  <h3 class="text-center mb-4">What Our Clients Say</h3>
+  <div class="row g-4">
+    
+    <div class="col-md-4">
+      <div class="card h-100 text-center p-3">
+         <i class="fa-solid fa-circle-user fa-3x text-orange"></i>
+        <p>“Amazing service! My clothes were spotless.”</p>
+        <div class="text-warning mb-2">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <small>- Sarah, Ntinda</small>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card h-100 text-center p-3">
+        <i class="fa-solid fa-circle-user fa-3x text-orange"></i>
+        <p>“Fast delivery and great customer care.”</p>
+        <div class="text-warning mb-2">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <small>- John, Kira</small>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card h-100 text-center p-3">
+        <i class="fa-solid fa-circle-user fa-3x text-orange"></i>
+        <p>“Highly recommend! Affordable and professional.”</p>
+        <div class="text-warning mb-2">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <small>- Amina, Kololo</small>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/256764763935" class="whatsapp-float" target="_blank">
+  <img src="images/WhatsApp.png" alt="WhatsApp Chat">
+</a>
+
+<!-- Footer -->
+<footer class="footer-dark text-white pt-5 pb-3">
+  <div class="container">
+    <div class="row">
+
+      <!-- About Section -->
+      <div class="col-md-3">
+        <h5 class="text-orange">Levany Fresh Laundry</h5>
+        <p>We bring freshness to your doorstep. Quality laundry services in Kampala.</p>
+        <p class="mt-3">
+          <i class="bi bi-telephone"></i> +256 764 763 935<br>
+          <i class="bi bi-envelope"></i> info@levanyfresh.com
+        </p>
+      </div>
+
+      <!-- Information -->
+      <div class="col-md-2">
+        <h6 class="text-orange">Information</h6>
+        <ul class="list-unstyled">
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="faqs.html">FAQs</a></li>
+        </ul>
+      </div>
+
+      <!-- Helpful Links -->
+      <div class="col-md-2">
+        <h6 class="text-orange">Helpful Links</h6>
+        <ul class="list-unstyled">
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <!-- Subscribe -->
+      <div class="col-md-4">
+        <h6 class="text-orange">Subscribe for Offers</h6>
+        <form>
+          <div class="input-group mb-3">
+            <input type="email" class="form-control" placeholder="Enter your Email">
+            <button class="btn btn-orange" type="submit">Subscribe</button>
+          </div>
+        </form>
+        <div class="social-icons">
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-twitter"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-whatsapp"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="text-center mt-4 border-top pt-3">
+      <small>© 2025 Levany Fresh Laundry. All rights reserved.</small>
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
