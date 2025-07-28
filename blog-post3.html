@@ -18,14 +18,50 @@
     body {
       background-color: #f5f5f5;
       color: #333;
+      font-family: Arial, sans-serif;
+      background: #fff;
+      padding-top: 20px;
       
     }
     .post-content {
-      max-width: 960px;
+      max-width: 900px;
       margin: auto;
       background: white;
       padding: 40px;
       border-radius: 8px;
+    }
+    .author-box {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .author-box img {
+      border-radius: 50%;
+      margin-right: 15px;
+    }
+    .social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #FFF;
+  font-size: 0.50rem;}
+    .divider {
+      border-top: 3px solid #000;
+      width: 50px;
+      margin: 20px 0;
+    }
+    .social-icons i {
+      font-size: 20px;
+      margin: 0 10px;
+      color: white;
+    }
+    .social-icons .btn {
+      margin-right: 10px;
+    }
+    blockquote {
+      font-style: italic;
+      background: #f8f9fa;
+      padding: 10px 20px;
+      border-left: 5px solid #ccc;
     }
   </style>
 </head>
@@ -53,52 +89,37 @@
 
   <div class="container">
     <div class="post-content">
-<h1>Behind Every Fold</h1>
-    <p class="subheading">Discover the stories of hands behind your neatly folded laundry.</p>
-    <p class="meta">
-      Date: 24 July 2025 | Category: Community & Partnerships | Reading time: 10 min
-    </p>
-
-    <img src="images/behindfolding.jpg" class="hero-image" alt="Blog hero image">
-
-<div class="content">
-      <div class="article">
-        <h2>Empowering Hands Behind the Scenes</h2>
-        <p>In today’s fast-paced world, convenience is no longer a luxury — it’s a necessity. That’s where pickup-to-doorstep laundry services step in, transforming how we handle one of life’s most essential (and time-consuming) chores. Whether you're a busy professional, a student juggling classes, or a parent managing a household, having your laundry picked up, cleaned, and dropped off right at your door is a small change that makes a big difference.</p>
-        
-
-        <h3>Laundry Made Easy</h3>
-        <p>Gone are the days when laundry meant hours at the washing machine or trips to a laundromat. With just a few clicks or a quick phone call, you can now schedule a pickup at a time that suits your routine. Our professional team collects your laundry right from your doorstep and ensures it’s washed, folded, and returned to you, fresh and clean on time, every time</p>
-
-        <h3>Affordability That Works for You</h3>
-        <p>Many assume that doorstep services come with high costs. But we’re changing that. Our rates are tailored to remain affordable for every household, without compromising on quality. We offer clear, upfront pricing, with no hidden fees making premium service accessible for everyone.</p>
-      </div>
-      <div class="sidebar">
-        <h4>Author</h4>
-        <p>Levin Nation</p>
-        <p>Strategic brand advisor with a passion for effective communication and digital innovation.</p>
-        <p>
-          <strong>Share:</strong><br>
-          <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">LinkedIn</a>
-        </p>
-      </div>
+<h1 class="font-weight-bold">Pickup to Doorstep</h1>
+  <div class="author-box">
+    <img src="https://i.imgur.com/3GvwNBf.jpg" width="60" height="60" alt="author">
+    <div>
+      <p class="mb-1">Vanessa N. Levin Godfrey</p>
+      <small>Published on July 28, 2025 in <a href="#">Service</a></small>
     </div>
-<div class="related">
-      <h2>RELATED NEWS <a href="blog.html" class="see-all">SEE ALL</a></h2>
-      <div class="related-posts">
-        <div class="related-card">
-          <img src="images/delivery1.png" alt="Related news 1">
-          <h4>Pickup to Doorstep</h4>
-          <p>Convenient, affordable, and on-time pickup and drop-off services.</p>
-          <a href="blog-post3.html" class="read-more">Read More →</a>
-        </div>
-        <div class="related-card">
-          <img src="images/sustainable.jpg" alt="Related news 2">
-          <h4>Sustainability in Every Wash</h4>
-          <p>How we ensure eco-conscious practices in our laundry process.</p>
-          <a href="blog-post2.html" class="read-more">Read More →</a>
-        </div>
-      </div>
+  </div>
+
+  <img src="images/deliver1.png" alt="Pickup Service" class="img-fluid mb-4">
+  <div class="divider"></div>
+
+  <p>We understand your time is valuable. That’s why our pickup and delivery service is built around your schedule—seamless, punctual, and stress-free. You click, we collect. We clean, and we return. It’s that simple.</p>
+
+  <p>Affordability meets convenience in our doorstep solution. Whether it’s one bag or a week’s worth, our team ensures safe handling and prompt drop-offs every single time. No more queues, no more waiting.</p>
+
+  <p>Your laundry shouldn’t interrupt your life. So we’ve built a service that fits into it naturally. From pickup to doorstep—on time, every time.</p>
+
+  <div class="divider"></div>
+  <div class="d-flex social-icons mb-4">
+    <a href="#" class="btn btn-primary"><i class="fab fa-facebook-f"></i> Facebook</a>
+    <a href="#" class="btn btn-info"><i class="fab fa-twitter"></i> Twitter</a>
+    <a href="#" class="btn btn-danger"><i class="fab fa-pinterest-p"></i> Pinterest</a>
+    <a href="#" class="btn btn-secondary"><i class="fas fa-print"></i> Print</a>
+    <a href="#" class="btn btn-danger"><i class="fas fa-envelope"></i> Email</a>
+  </div>
+
+  <div class="fb-comments" data-href="http://example.com/post3" data-numposts="5" data-width="100%"></div>
+</div>
+
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0"></script>
     </div>
 
    </div>
